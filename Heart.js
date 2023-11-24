@@ -22,7 +22,7 @@ let afk = require("./Gallery/lib/afk");
 const { fetchBuffer, buffergif } = require("./Gallery/lib/myfunc2")
 
 /////log
-global.ownernumber = '17188785916' 
+global.ownernumber = '919931122319' 
 //Gallery/database
 let ntilinkall =JSON.parse(fs.readFileSync('./Gallery/database/antilink.json'))
 let _owner = JSON.parse(fs.readFileSync('./Gallery/database/owner.json'))
@@ -1618,7 +1618,7 @@ const Mariaarray= [
         
             const Mariaselection = Mariaarray[Math.floor(Math.random()*Mariaarray.length)]
         
-            Maria.sendMessage(from,{image:{url:Mariaselection},gifPlayback:true,caption:txt},{quoted:m})
+            Maria.sendMessage(from,{image:{url: "./Gallery/thumb.jpg"},caption:txt},{quoted:m})
 
 break           
                 case 'circlevideo': {
